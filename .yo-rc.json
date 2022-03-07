@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.12.1",
+    "libraryName": "recruitment-portal",
+    "libraryId": "403532c4-9db0-493c-a1d1-4322f791777e",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
