@@ -148,15 +148,16 @@
   }
  
   ul li:after {
-   /* content: url('../../images/v-line.png'); */
+    content: url('../../assets/images/v-line.png'); 
 	position: absolute;
 	right: 0px;
 	  top: -50px;
   }
   .service ul li {
-	width: 13.28%;
+	width: 33.28%;
 	position: relative;
   }
   .service h5 {
 	font-size: 14px;
+  color:white;
   }

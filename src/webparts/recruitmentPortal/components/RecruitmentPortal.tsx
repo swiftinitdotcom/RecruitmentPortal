@@ -67,9 +67,9 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
               <div className={'col-12 col-md-4'}>
                 <div className={'ps-5 mt-5'}> <img src={logo} />
                   <div className={'mt-5'}>
-                    <h1 className={'text-white'}>RECRUITMENT</h1>
-                    <h1 className={'text-white'}>PROCESS</h1>
-                    <h6 className={'text-white mt-3'}>Work instructions, supporting documents</h6>
+                    <h1 className={'text-white'}>Distributor</h1>
+                    <h1 className={'text-white'}>Portal</h1>
+                    <h6 className={'text-white mt-3'}>Welcome to Your Dedicated Portal</h6>
                     <img className={'mt-3'} src={rightarrow} /> </div>
                 </div>
               </div>
@@ -77,11 +77,11 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
               <div className={'col-12 col-md-4'}>
                 <div className={'mt-5 pe-5'}>
                   <div className={'pt-l-5 bg-top text-white text-center'}>
-                    <p>SmartRecruiters config<br />
-                      info</p>
+                    <p>Scroll Down to Find<br />
+                    the Right <br />Material For You!</p>
                     <img src={hline} />
-                    <p className={'mt-3'}>Data migration,<br />
-                      SRWorkbook</p>
+                    <p className={'mt-3'}>
+                      </p>
                   </div>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
                 <div className={'col-12'}>
                   <ul className={'list-inline text-white text-center m-0 pt-5 pb-5'}>
                     <a href={this.state.config[0].links}><li className={'list-inline-item'}><img src={this.state.config[0].img} /><br />
-                      <h5 className={'mt-3'}>{this.state.config[0].title}</h5>
+                     <h5 className={'mt-3'}>{this.state.config[0].title}</h5>
                     </li></a>
                     <a href={this.state.config[1].links}><li className={'list-inline-item'}><img src={this.state.config[1].img} /><br />
                       <h5 className={'mt-3'}>{this.state.config[1].title} </h5>
@@ -128,9 +128,9 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
             <div className={'col-12 col-md-6 col-side-left'}>
               <img className={'mt-5'} src={logo} />
               <div className={'align-middle pt-large'}>
-                <h1>RECRUITMENT</h1>
-                <h1>PROCESS</h1>
-                <h6 className={'pt-4'}>Work instructions, supporting documents</h6>
+                <h1>Distributor</h1>
+                <h1>Portal</h1>
+                <h6 className={'pt-4'}>In case you could not find the content you are looking for, please reach out to our Marketing Team at marketing@itrident.com</h6>
                 <img className={'pt-3'} src={rightarrow} /> </div>
             </div>
             <div className={'col-12 col-md-6 col-side-right'}>
@@ -156,8 +156,8 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
 
                     <p className={'box-text'}>{this.state.config[11].title}<br />
                       <img className={'pt-2 pb-2'} src={hline1} /><br />
-                      Data migration,<br />
-                      SRWorkbook</p>
+                      <br />
+                      </p>
                     <img className={'w-100 '} src={this.state.config[11].img} /> </a> </div>
                 </div>
 
