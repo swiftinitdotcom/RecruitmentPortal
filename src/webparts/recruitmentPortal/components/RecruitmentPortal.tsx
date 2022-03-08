@@ -69,7 +69,9 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
                   <div className={'mt-5'}>
                     <h1 className={'text-white'}>Distributor</h1>
                     <h1 className={'text-white'}>Portal</h1>
-                    <h6 className={'text-white mt-3'}>Welcome to Your Dedicated Portal</h6>
+                    <h6 className={'text-white mt-3'}>We have created this website to host all the material you would need as a distributor to promote the brands we represent to your audience, educating them and gaining additional leads.
+Please note that this website is only meant for your eyes so please do not share the link or password with anyone outside of your team.
+In case you could not find the content you are looking for, please reach out to our Marketing Team at marketing@itrident.com.</h6>
                     <img className={'mt-3'} src={rightarrow} /> </div>
                 </div>
               </div>
@@ -77,6 +79,8 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
               <div className={'col-12 col-md-4'}>
                 <div className={'mt-5 pe-5'}>
                   <div className={'pt-l-5 bg-top text-white text-center'}>
+                
+                  <p>  Welcome to Your Dedicated Portal</p><br />
                     <p>Scroll Down to Find<br />
                     the Right <br />Material For You!</p>
                     <img src={hline} />
