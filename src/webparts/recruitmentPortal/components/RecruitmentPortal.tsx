@@ -98,13 +98,13 @@ In case you could not find the content you are looking for, please reach out to 
                 <div className={'col-12'}>
                   <ul className={'list-inline text-white text-center m-0 pt-5 pb-5'}>
                     <a href={this.state.config[0].links}><li className={'list-inline-item'}><img src={this.state.config[0].img} /><br />
-                     <h5 className={'mt-3'}>{this.state.config[0].title}</h5>
+                    
                     </li></a>
                     <a href={this.state.config[1].links}><li className={'list-inline-item'}><img src={this.state.config[1].img} /><br />
-                      <h5 className={'mt-3'}>{this.state.config[1].title} </h5>
+                     
                     </li></a>
                     <a href={this.state.config[2].links}><li className={'list-inline-item'}><img src={this.state.config[2].img} /><br />
-                      <h5 className={'mt-3'}>{this.state.config[2].title} </h5>
+                    
                     </li></a>
                     {/*
                     <a href={this.state.config[3].links}><li className={'list-inline-item'}><img src={this.state.config[3].img} /><br />
