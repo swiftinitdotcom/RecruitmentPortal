@@ -49,6 +49,10 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
         { title: '', links: '', sn: '', img: '' },
         { title: '', links: '', sn: '', img: '' },
         { title: '', links: '', sn: '', img: '' },
+        { title: '', links: '', sn: '', img: '' },
+        { title: '', links: '', sn: '', img: '' },
+        { title: '', links: '', sn: '', img: '' },
+        { title: '', links: '', sn: '', img: '' },
         { title: '', links: '', sn: '', img: '' }
       ]
     };
@@ -69,7 +73,7 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
                   <div className={'mt-5'}>
                     <h1 className={'text-white'}>Distributor</h1>
                     <h1 className={'text-white'}>Portal</h1>
-                    <h6 className={'text-white mt-3'}>We have created this website to host all the material you would need as a distributor to promote the brands we represent to your audience, educating them and gaining additional leads.
+                    <h6 className={'text-white mt-3'}>We have created this website to host all the material you would need as a distributor to promote the brands we represent to your audience, educating them and gaining additional leads.<br/>
 Please note that this website is only meant for your eyes so please do not share the link or password with anyone outside of your team.
 In case you could not find the content you are looking for, please reach out to our Marketing Team at marketing@itrident.com.</h6>
                     <img className={'mt-3'} src={rightarrow} /> </div>
@@ -140,6 +144,7 @@ In case you could not find the content you are looking for, please reach out to 
             <div className={'col-12 col-md-6 col-side-right'}>
               <div className={'container'}>
                 <div className={'row pt-5	 text-center text-white p-relative'}>
+                  {/*
                   <div className={'col-md-8'}>
                     <div className={'row'}>
                       <div className={'col-md-6 p-relative'}> <a href={this.state.config[7].title}>
@@ -151,30 +156,56 @@ In case you could not find the content you are looking for, please reach out to 
                       <div className={'col-md-6 pt-3  p-relative'}> <a href={this.state.config[9].links}>
                         <p className={'box-text'}>{this.state.config[9].title}</p>
                         <img className={'w-100'} src={this.state.config[9].img} /> </a> </div>
+                  
                       <div className={'col-md-6 pt-3 p-relative'}> <a href={this.state.config[10].links}>
                         <p className={'box-text'}>{this.state.config[10].title}</p>
                         <img className={'w-100'} src={this.state.config[10].img} /> </a> </div>
                     </div>
                   </div>
+                  *}
+                  {/*
                   <div className={'col-md-4 mt-p-3  p-relative'}> <a href={this.state.config[11].links}>
-
                     <p className={'box-text'}>{this.state.config[11].title}<br />
-                      <img className={'pt-2 pb-2'} src={hline1} /><br />
-                      <br />
+                      <img className={'pt-2 pb-2'} src={hline1} />
                       </p>
-                    <img className={'w-100 '} src={this.state.config[11].img} /> </a> </div>
+                    <img className={'w-100 '} src={this.state.config[11].img} /> </a> </div>*/}
                 </div>
 
                 <div className={'row pb-3 text-center text-white mob-padding'}>
-                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[12].links}>
+                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[7].links}>
+                    <p className={'box-text'}>{this.state.config[7].title}</p>
+                    <img className={'w-100 '} src={this.state.config[7].img} /> </a> </div>
+                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[8].links}>
+                    <p className={'box-text'}>{this.state.config[8].title}</p>
+                    <img className={'w-100'} src={this.state.config[8].img} /> </a> </div>
+                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[9].links}>
+                    <p className={'box-text'}>{this.state.config[9].title}</p>
+                    <img className={'w-100'} src={this.state.config[9].img} /> </a> </div>
+                </div>
+
+                <div className={'row pb-3 text-center text-white mob-padding'}>
+                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[10].links}>
+                    <p className={'box-text'}>{this.state.config[10].title}</p>
+                    <img className={'w-100 '} src={this.state.config[10].img} /> </a> </div>
+                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[11].links}>
+                    <p className={'box-text'}>{this.state.config[11].title}</p>
+                    <img className={'w-100'} src={this.state.config[11].img} /> </a> </div>
+                    <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[12].links}>
                     <p className={'box-text'}>{this.state.config[12].title}</p>
-                    <img className={'w-100 '} src={this.state.config[12].img} /> </a> </div>
+                    <img className={'w-100'} src={this.state.config[12].img} /> </a> </div>
+                </div>
+
+                <div className={'row pb-3 text-center text-white mob-padding'}>
+                 
                   <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[13].links}>
                     <p className={'box-text'}>{this.state.config[13].title}</p>
                     <img className={'w-100'} src={this.state.config[13].img} /> </a> </div>
                   <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[14].links}>
                     <p className={'box-text'}>{this.state.config[14].title}</p>
                     <img className={'w-100'} src={this.state.config[14].img} /> </a> </div>
+                    <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[15].links}>
+                    <p className={'box-text'}>{this.state.config[15].title}</p>
+                    <img className={'w-100 '} src={this.state.config[15].img} /> </a> </div>
                 </div>
               </div>
             </div>
