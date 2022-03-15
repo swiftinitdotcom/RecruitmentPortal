@@ -2,6 +2,7 @@ import { WebPartContext } from '@microsoft/sp-webpart-base';
 export interface IRecruitmentPortalProps {
   description: string;
   context: WebPartContext;
+  listname: string;
 }
 
 
