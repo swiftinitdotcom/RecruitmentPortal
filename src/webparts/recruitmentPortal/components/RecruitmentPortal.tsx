@@ -223,7 +223,7 @@ In case you could not find the content you are looking for, please reach out to 
     }else{
       require('../../assets/css/webpage.css');
     }
-    const listname: string = 'Config';
+    const listname: string =  this.props.listname;
     const columns: string = 'Id,Title,Header,Links,SN,Imgpath';
     this.service.getListItem('', listname, '', columns, '', '', '')
       .then((response: SPHttpClientResponse) => {
