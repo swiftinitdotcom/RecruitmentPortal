@@ -18,6 +18,7 @@ SPComponentLoader.loadScript('https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/
 
 export interface IRecruitmentPortalWebPartProps {
   description: string;
+  listname: string;
 }
 
 export default class RecruitmentPortalWebPart extends BaseClientSideWebPart<IRecruitmentPortalWebPartProps> {
@@ -28,6 +29,7 @@ export default class RecruitmentPortalWebPart extends BaseClientSideWebPart<IRec
       {
         description: this.properties.description,
         context: this.context,
+        listname: this.properties.listname,
       }
     );
 
@@ -52,9 +54,12 @@ export default class RecruitmentPortalWebPart extends BaseClientSideWebPart<IRec
           groups: [
             {
               groupName: 'Page Select',
-              groupFields: [
+             groupFields: [
                 PropertyPaneTextField('description', {
                   label: 'Enter Page Number (1 or 2)'
+                }),
+                PropertyPaneTextField('listname', {
+                  label: 'List Name'
                 })
               ]
             }
