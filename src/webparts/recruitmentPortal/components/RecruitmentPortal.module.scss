@@ -68,9 +68,10 @@
 }
  .col-side-right .container .row {
  grid-template-columns: repeat(2, 1fr);
- grid-column-gap: 15px;
- grid-row-gap: 15px;
+ grid-column-gap: 5px;
+ grid-row-gap: 5px;
  display: grid;
+ padding-top:0px;
 }
 }
  @media (max-width: 767px) {
@@ -81,9 +82,10 @@
 }
  .col-side-right .container .row {
  grid-template-columns: repeat(2, 1fr);
- grid-column-gap: 15px;
- grid-row-gap: 15px;
+ grid-column-gap: 5px;
+ grid-row-gap: 5px;
  display: grid;
+ padding-top:0px;
 }
  .box-recruitment-box {
  padding-right:20px;
