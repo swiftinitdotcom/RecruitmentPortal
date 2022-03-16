@@ -161,3 +161,11 @@
 	font-size: 14px;
   color:white;
   }
+  .marginclass
+  {
+
+    padding-right: 6px !important;
+    padding-left: 6px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+  }

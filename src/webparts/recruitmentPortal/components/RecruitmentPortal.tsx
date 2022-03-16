@@ -143,7 +143,7 @@ In case you could not find the content you are looking for, please reach out to 
             </div>
             <div className={'col-12 col-md-6 col-side-right'}>
               <div className={'container'}>
-                <div className={'row pt-5	 text-center text-white p-relative'}>
+                <div className={'row pt-1	 text-center text-white p-relative'}>
                   {/*
                   <div className={'col-md-8'}>
                     <div className={'row'}>
@@ -171,39 +171,39 @@ In case you could not find the content you are looking for, please reach out to 
                     <img className={'w-100 '} src={this.state.config[11].img} /> </a> </div>*/}
                 </div>
 
-                <div className={'row pb-3 text-center text-white mob-padding'}>
-                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[7].links}>
+                <div className={'row pb-0 text-center text-white mob-padding'}>
+                  <div className={'col-md-4 p-1 p-relative '+styles.marginclass}> <a href={this.state.config[7].links}>
                     <p className={'box-text'}>{this.state.config[7].title}</p>
                     <img className={'w-100 '} src={this.state.config[7].img} /> </a> </div>
-                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[8].links}>
+                  <div className={'col-md-4 p-1 p-relative '+styles.marginclass}> <a href={this.state.config[8].links}>
                     <p className={'box-text'}>{this.state.config[8].title}</p>
                     <img className={'w-100'} src={this.state.config[8].img} /> </a> </div>
-                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[9].links}>
+                  <div className={'col-md-4 p-1 p-relative '+styles.marginclass}> <a href={this.state.config[9].links}>
                     <p className={'box-text'}>{this.state.config[9].title}</p>
                     <img className={'w-100'} src={this.state.config[9].img} /> </a> </div>
                 </div>
 
-                <div className={'row pb-3 text-center text-white mob-padding'}>
-                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[10].links}>
+                <div className={'row pb-0 text-center text-white mob-padding'}>
+                  <div className={'col-md-4 p-1 p-relative '+styles.marginclass}> <a href={this.state.config[10].links}>
                     <p className={'box-text'}>{this.state.config[10].title}</p>
                     <img className={'w-100 '} src={this.state.config[10].img} /> </a> </div>
-                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[11].links}>
+                  <div className={'col-md-4 p-1 p-relative '+styles.marginclass}> <a href={this.state.config[11].links}>
                     <p className={'box-text'}>{this.state.config[11].title}</p>
                     <img className={'w-100'} src={this.state.config[11].img} /> </a> </div>
-                    <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[12].links}>
+                    <div className={'col-md-4 p-1 p-relative '+styles.marginclass}> <a href={this.state.config[12].links}>
                     <p className={'box-text'}>{this.state.config[12].title}</p>
                     <img className={'w-100'} src={this.state.config[12].img} /> </a> </div>
                 </div>
 
-                <div className={'row pb-3 text-center text-white mob-padding'}>
+                <div className={'row pb-0 text-center text-white mob-padding'}>
                  
-                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[13].links}>
+                  <div className={'col-md-4 p-1 p-relative '+styles.marginclass}> <a href={this.state.config[13].links}>
                     <p className={'box-text'}>{this.state.config[13].title}</p>
                     <img className={'w-100'} src={this.state.config[13].img} /> </a> </div>
-                  <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[14].links}>
+                  <div className={'col-md-4 p-1 p-relative '+styles.marginclass}> <a href={this.state.config[14].links}>
                     <p className={'box-text'}>{this.state.config[14].title}</p>
                     <img className={'w-100'} src={this.state.config[14].img} /> </a> </div>
-                    <div className={'col-md-4 pt-3 p-relative'}> <a href={this.state.config[15].links}>
+                    <div className={'col-md-4 p-1 p-relative '+styles.marginclass}> <a href={this.state.config[15].links}>
                     <p className={'box-text'}>{this.state.config[15].title}</p>
                     <img className={'w-100 '} src={this.state.config[15].img} /> </a> </div>
                 </div>
