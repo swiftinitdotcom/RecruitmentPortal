@@ -76,7 +76,7 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
                     <h6 className={'text-white mt-3'}>We have created this website to host all the material you would need as a distributor to promote the brands we represent to your audience, educating them and gaining additional leads.<br/>
 Please note that this website is only meant for your eyes so please do not share the link or password with anyone outside of your team.
 In case you could not find the content you are looking for, please reach out to our Marketing Team at marketing@itrident.com.</h6>
-                    <img className={'mt-3'} src={rightarrow} /> </div>
+                 </div>
                 </div>
               </div>
               <div className={'col-12 col-md-3'}></div>
