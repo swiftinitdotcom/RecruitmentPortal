@@ -14,7 +14,7 @@
 .service {
 	background: -webkit-linear-gradient( 295deg, rgb(32 62 113 / 78%), rgb(1 165 184 / 75%));
 	background: linear-gradient( 131deg, rgb(32 62 113 / 78%), rgb(1 165 184 / 75%));
-	margin-top: 100px;
+	margin-top: 3px;
 	position: relative;
 }
 .bg-color {
@@ -144,7 +144,8 @@
 }
  
   .pt-l-5 {
-	padding-top:7rem;
+    padding-bottom: 4rem;
+    padding-top: 5.6rem;
   }
  
   ul li:after {

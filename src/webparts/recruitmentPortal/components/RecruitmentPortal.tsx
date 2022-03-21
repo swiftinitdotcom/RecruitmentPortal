@@ -68,18 +68,18 @@ export default class RecruitmentPortal extends React.Component < IRecruitmentPor
         <div className={styles.header_bg}>
           <div className={'container-fluid'}>
             <div className={'row'}>
-              <div className={'col-12 col-md-4'}>
+              <div className={'col-12 col-md-5'}>
                 <div className={'ps-5 mt-5'}> <img src={logo} />
                   <div className={'mt-5'}>
-                    <h1 className={'text-white'}>Distributor</h1>
-                    <h1 className={'text-white'}>Portal</h1>
+                    <h1 className={'text-white'}>Distributor Portal</h1>
+                  
                     <h6 className={'text-white mt-3'}>We have created this website to host all the material you would need as a distributor to promote the brands we represent to your audience, educating them and gaining additional leads.<br/>
 Please note that this website is only meant for your eyes so please do not share the link or password with anyone outside of your team.
 In case you could not find the content you are looking for, please reach out to our Marketing Team at marketing@itrident.com.</h6>
                     <img className={'mt-3'} src={rightarrow} /> </div>
                 </div>
               </div>
-              <div className={'col-12 col-md-4'}></div>
+              <div className={'col-12 col-md-3'}></div>
               <div className={'col-12 col-md-4'}>
                 <div className={'mt-5 pe-5'}>
                   <div className={'pt-l-5 bg-top text-white text-center'}>
@@ -87,7 +87,7 @@ In case you could not find the content you are looking for, please reach out to 
                   <p>  Welcome to Your Dedicated Portal</p><br />
                     <p>Scroll Down to Find<br />
                     the Right <br />Material For You!</p>
-                    <img src={hline} />
+                  
                     <p className={'mt-3'}>
                       </p>
                   </div>
@@ -96,7 +96,7 @@ In case you could not find the content you are looking for, please reach out to 
             </div>
           </div>
           <div className={'service'}>
-            <div className={'p-4 bg-color'}></div>
+            <div className={'p-3 bg-color'}></div>
             <div className={'container-fluid'}>
               <div className={'row'}>
                 <div className={'col-12'}>
