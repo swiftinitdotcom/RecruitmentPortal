@@ -69,29 +69,15 @@ export default class RecruitmentPortal extends React.Component<IRecruitmentPorta
             <div className={'container-fluid'}>
               <div className={'row'}>
                 <div className={'col-12 col-md-5'}>
-                  <div className={'ps-5 mt-5'}> <img src={this.props.context.pageContext.web.absoluteUrl+'/SiteAssets/Logo/logo.png'} />
+                  <div className={'ps-5 mt-5'}> <img src={this.props.context.pageContext.web.absoluteUrl + '/SiteAssets/Logo/logo.png'} />
                     <div className={'mt-5'}>
                       <h1 className={'text-white'}>Distributor Portal</h1>
-
                       <h6 className={'text-white mt-3'}>We have created this website to host all the material you would need as a distributor to promote the brands we represent to your audience, educating them and gaining additional leads.<br />
                         Please note that this website is only meant for your eyes so please do not share the link or password with anyone outside of your team.
-                        In case you could not find the content you are looking for, please reach out to our Marketing Team at marketing@itrident.com.</h6>
+                        In case you could not find the content you are looking for, please reach out to our Marketing Team at <a href='mailto:marketing@itrident.com'>marketing@itrident.com</a></h6>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className={'col-12 col-md-3'}></div>
-              <div className={'col-12 col-md-4'}>
-                <div className={'mt-5 pe-5'}>
-                  <div className={'pt-l-5 bg-top text-white text-center'}>
-                  
-
-
-                   <p style={{"font-size":"16px"}}>  Welcome to Your Dedicated Portal</p><br />
-                   <p>Scroll Down to Find<br />
-                    the Right <br />Material For You!</p>
-                  
-                    <p className={'mt-3'}>
                 <div className={'col-12 col-md-3'}></div>
                 <div className={'col-12 col-md-4'}>
                   <div className={'mt-5 pe-5'}>
@@ -157,7 +143,7 @@ export default class RecruitmentPortal extends React.Component<IRecruitmentPorta
                     <img className={'mt-5'} src={this.props.headingvalue} />
                     : ''
                   }
-                  <h6 className={'pt-4'}>In case you could not find the content you are looking for, please reach out to our Marketing Team at marketing@itrident.com</h6>
+                  <h6 className={'pt-4'}>In case you could not find the content you are looking for, please reach out to our Marketing Team at <a href='mailto:marketing@itrident.com'>marketing@itrident.com</a></h6>
                   <img className={'pt-3'} src={rightarrow} /> </div>
               </div>
               <div className={'col-12 col-md-6 col-side-right'}>
@@ -185,7 +171,7 @@ export default class RecruitmentPortal extends React.Component<IRecruitmentPorta
                         <p className={'box-text'}>{this.state.config[11].title}<br />
                           {/*<img className={'pt-2 pb-2'} src={hline1} />*/}
                         </p>
-                        <img className={'w-100 '} src={this.state.config[11].img} /> </a>
+                        <img className={'w-100 '+ styles.mergeimg} src={this.state.config[11].img} /> </a>
                       </div>
                     </div>
                     : ''}
