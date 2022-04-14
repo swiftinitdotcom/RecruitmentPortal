@@ -3,6 +3,7 @@ export interface IRecruitmentPortalProps {
   description: string;
   context: WebPartContext;
   listname: string;
+  merge:string;
 }
 
 
