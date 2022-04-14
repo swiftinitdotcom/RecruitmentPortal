@@ -147,10 +147,16 @@ export default class RecruitmentPortal extends React.Component<IRecruitmentPorta
           <div className={'container-fluid'}>
             <div className={'row h-100'}>
               <div className={'col-12 col-md-6 col-side-left'}>
-                <img className={'mt-5'} src={this.props.context.pageContext.web.absoluteUrl+'/SiteAssets/Logo/logo.png'} />
+                <img className={'mt-5'} src={this.props.context.pageContext.web.absoluteUrl + '/SiteAssets/Logo/logo.png'} />
                 <div className={'align-middle pt-large'}>
-                  <h1>Distributor</h1>
-                  <h1>Portal</h1>
+                  {this.props.heading === 'Text' ?
+                    <h1 className={'text-white'}>{this.props.headingvalue}</h1>
+                    : ''
+                  }
+                  {this.props.heading === 'Logo' ?
+                    <img className={'mt-5'} src={this.props.headingvalue} />
+                    : ''
+                  }
                   <h6 className={'pt-4'}>In case you could not find the content you are looking for, please reach out to our Marketing Team at marketing@itrident.com</h6>
                   <img className={'pt-3'} src={rightarrow} /> </div>
               </div>
@@ -160,22 +166,22 @@ export default class RecruitmentPortal extends React.Component<IRecruitmentPorta
                     <div className={'row pt-1	 text-center text-white p-relative'}>
                       <div className={'col-md-8'}>
                         <div className={'row'}>
-                          <div className={'col-md-6 p-relative'}> <a href={this.state.config[7].title}>
+                          <div className={'col-md-6 p-1 p-relative ' + styles.marginclass}> <a href={this.state.config[7].title}>
                             <p className={'box-text'}>{this.state.config[7].title}</p>
                             <img className={'w-100'} src={this.state.config[7].img} /> </a> </div>
-                          <div className={'col-md-6 mt-p-3 p-relative'}> <a href={this.state.config[8].links}>
+                          <div className={'col-md-6 p-1 p-relative ' + styles.marginclass}> <a href={this.state.config[8].links}>
                             <p className={'box-text'}>{this.state.config[8].title}</p>
                             <img className={'w-100'} src={this.state.config[8].img} /> </a> </div>
-                          <div className={'col-md-6 pt-3  p-relative'}> <a href={this.state.config[9].links}>
+                          <div className={'col-md-6 p-1  p-relative ' + styles.marginclass}> <a href={this.state.config[9].links}>
                             <p className={'box-text'}>{this.state.config[9].title}</p>
                             <img className={'w-100'} src={this.state.config[9].img} /> </a> </div>
 
-                          <div className={'col-md-6 pt-3 p-relative'}> <a href={this.state.config[10].links}>
+                          <div className={'col-md-6 p-1 p-relative ' + styles.marginclass}> <a href={this.state.config[10].links}>
                             <p className={'box-text'}>{this.state.config[10].title}</p>
                             <img className={'w-100'} src={this.state.config[10].img} /> </a> </div>
                         </div>
                       </div>
-                      <div className={'col-md-4 mt-p-3  p-relative'}> <a href={this.state.config[11].links}>
+                      <div className={'col-md-4 p-1  p-relative ' + styles.mergeclass}> <a href={this.state.config[11].links}>
                         <p className={'box-text'}>{this.state.config[11].title}<br />
                           {/*<img className={'pt-2 pb-2'} src={hline1} />*/}
                         </p>
