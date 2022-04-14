@@ -83,8 +83,10 @@ In case you could not find the content you are looking for, please reach out to 
               <div className={'col-12 col-md-4'}>
                 <div className={'mt-5 pe-5'}>
                   <div className={'pt-l-5 bg-top text-white text-center'}>
-                
-                  <p>  Welcome to Your Dedicated Portal</p><br />
+                  
+
+
+                  <p style={{"font-size":"16px"}}>  Welcome to Your Dedicated Portal</p><br />
                     <p>Scroll Down to Find<br />
                     the Right <br />Material For You!</p>
                   
