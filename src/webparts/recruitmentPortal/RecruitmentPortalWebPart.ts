@@ -20,6 +20,8 @@ export interface IRecruitmentPortalWebPartProps {
   description: string;
   listname: string;
   merge:string;
+  heading:string;
+  headingvalue:string;
 }
 
 export default class RecruitmentPortalWebPart extends BaseClientSideWebPart<IRecruitmentPortalWebPartProps> {
@@ -32,6 +34,8 @@ export default class RecruitmentPortalWebPart extends BaseClientSideWebPart<IRec
         context: this.context,
         listname: this.properties.listname,
         merge: this.properties.merge,
+        heading: this.properties.heading,
+        headingvalue:this.properties.headingvalue,
       }
     );
 
@@ -66,6 +70,14 @@ export default class RecruitmentPortalWebPart extends BaseClientSideWebPart<IRec
                 PropertyPaneTextField('merge', {
                   label: 'Merge (Yes or No)',
                   description: 'Need to change the image accordingly.'
+                }),
+                PropertyPaneTextField('heading', {
+                  label: 'Heading(Text or Logo)',
+                  description: 'Enter Text or Logo'
+                }),
+                PropertyPaneTextField('headingvalue', {
+                  label: 'Heading Value',
+                  description: 'Provide Img Url or Text to display in heading.'
                 })
               ]
             }
